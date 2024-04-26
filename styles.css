@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b3acac;
+}
+
+.main-container {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.login-container {
+    display: flex;
+    width: 1000px;
+}
+
+.input-container-wrapper {
+    display: flex;
+    width: 350px;
+    align-items: center;
+    
+}
+
+.input-container {
+    margin-right: 30px;
+    margin-bottom: 15px;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 10%;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px; 
+}
+
+.input-container label {
+    color: #333; 
+}
+
+
+.user-details {
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.user-details-title {
+    position: relative;
+    top: -40px; 
+    display: inline-block;
+    padding: 10px 110px; 
+    background-color: #31b7ea; 
+    color: white; 
+}
+
+
+.map-container {
+    width: 60%;
+    height: 100%;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 25px;
+    background-color: #e7ebed;
+}
+
+button {
+    background-color: #31b7ea;
+    color: white;
+    padding: 10px 120px;
+    height: auto;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #006188;
+}
+
+@font-face {
+    font-family: 'FuturaMediumCondensed';
+    src: url('futura-medium-condensed-bt.ttf') format('truetype'),
+}
+
+body {
+    font-family: 'FuturaMediumCondensed', Arial, sans-serif;
+}
+
+.user-details, button, .input-container {
+    font-family: 'FuturaMediumCondensed', Arial, sans-serif;
+}
+
